@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+
+        body {
+        margin: 0;
+        font-family: Arial;
+        background-color: black;
+        }
+
+        header {
+        text-align: center;
+        padding: 32px;
+        font-variant: small-caps;
+        color: white;
+        }
+        
+        h1 {
+            font-weight: bold;
+            font-size: 300% !important;
+            color: white;
+            text-shadow: 5px 5px olive;
+        }
+
+        .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+        }
+
+        .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        border-radius: 10px;
+        border: 3px solid olive;
+        }
+
+        footer #block {
+            padding-bottom: 10px;
+            background-color: olive;
+            opacity: 50%;
+            height: 100%;
+            width: 100%;
+        }
+
+        footer p{
+            text-align: center;
+            color: white;
+            font-variant: small-caps;
+        }
+            
+        .column .remote {
+            padding-bottom: 20px;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+        .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+        }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        }
+        }
+    </style>
+
+    <title>Lynyrd Skynyrd</title>
+    <link rel="shortcut icon" href="images - lynyrd skynyrd/band6.jpeg"/>
+
+    </head>
+<body>
+
+<!-- Header -->
+<header> 
+    <h1>Lynyrd Skynyrd</h1>
+</header>
+
+<main>
+    <!-- Photo Grid -->
+    <div class="row"> 
+    <div class="column">
+        <img src="images - lynyrd skynyrd/band1.jpeg">
+        <img src="images - lynyrd skynyrd/band2.jpeg">
+        <img src="images - lynyrd skynyrd/band3.jpeg">
+        <img src="images - lynyrd skynyrd/band4.jpeg">
+        <img src="images - lynyrd skynyrd/band5.jpeg">
+        <img src="images - lynyrd skynyrd/band17.jpeg">
+    </div>
+    <div class="column">
+        <img src="images - lynyrd skynyrd/band6.jpeg">
+        <img src="images - lynyrd skynyrd/band7.jpeg">
+        <img src="images - lynyrd skynyrd/band8.jpeg">
+        <img src="images - lynyrd skynyrd/band9.jpeg">
+        <img src="images - lynyrd skynyrd/band10.jpeg">
+    </div>  
+    <div class="column">
+        <img src="images - lynyrd skynyrd/band11.jpeg">
+        <img src="images - lynyrd skynyrd/band13.jpeg">
+        <img src="images - lynyrd skynyrd/band14.jpeg">
+        <img src="images - lynyrd skynyrd/band15.jpeg">
+        <img src="images - lynyrd skynyrd/band16.jpeg">
+    </div>
+    <div class="column">
+        <img src="images - lynyrd skynyrd/band18.jpeg">
+        <img src="images - lynyrd skynyrd/band19.jpeg">
+        <img src="images - lynyrd skynyrd/band20.jpeg">
+        <img src="images - lynyrd skynyrd/band21.jpeg">
+        <img src="images - lynyrd skynyrd/band22.jpeg">
+            <div class= "remote">
+                <img src="images - lynyrd skynyrd/band23.jpeg">
+            </div>
+    </div>
+    </div>
+</main>
+
+<footer>
+    <div id="block"></div>
+    <p>&copy; 2021 TCormier Pruductions</p>
+    <div id="block"></div>
+</footer>
+
+</body>
+
+</html>
